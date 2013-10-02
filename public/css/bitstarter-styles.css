@@ -24,7 +24,7 @@
 /* Large desktop */
 @media (min-width: 980px) { 
   body {
-   padding-top: 60px;
+  
   }
  .linediv-l {
    border-right: 1px white solid;
@@ -56,49 +56,84 @@
 
   Also use slightly lighter subheading (Ubuntu 300 vs. 400)
 */
-body{
-  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-  font-weight: 300; 
+body h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #16a085
 }
-.heading, .subheading {
-  font-family: 'Ubuntu', Helvetica, Arial, sans-serif;
-  text-align: center;
-}
-.subheading {
-  font-weight: 300;
-}
-p.lead {
-  padding-top: 1.5%;
-  font-size: 24px;
-  line-height: 30px;
-}
-p {
-  font-size: 18px;
-  line-height: 24px;
+body p{
+    font-family: 'PT Mono', sans-serif;
+    text-transform: uppercase;
 }
 
-/* Video pitch and Action */
-.pitch {
-  padding: 2.5% 0%;
+.navbar {
+background-color:#16a085;
+height: 110px;
+-moz-box-shadow: 0px 0px 3px 0px #acacac;
+-webkit-box-shadow: 0px 0px 3px 0px #acacac;
+box-shadow: 0px 0px 3px 0px #acacac;
+
+
+
 }
-.order {
-  padding: 2% 0%;
-}
-.actions {
-  background-color: #343434;
-  padding: 3% 0%;
-}
-.video, .thermometer, .order, .social, .statistics {
-  text-align: center;
-}
-.statistics h3, .statistics p {
-  color: white;
-}
-.statistics p .currency {
-  font-size: 100%;
-  line-height: 1;
+.navbar-header h1 {
+font-size: 30px;
+margin-top: 25%;
+color: #fff;
+font-family: 'Swatch it';
+
 }
 
+.navbar-collapse ul{
+  padding-top: 2.5%;
+}
+
+.navbar-collapse li a {
+font-family: 'Lato', sans-serif;
+text-transform: uppercase;
+color:#cacccf;
+font-size: .9em;
+text-decoration: none;
+
+}
+
+.navbar-collapse li a:hover {
+  color: #222;
+  text-decoration: none;
+  border-bottom: 2px solid  #27ae60;
+  
+}
+
+#motto{
+    background-image: url();
+}
+#tourn{
+    background-image: url(http://pnimg.net/w/reporting-desktop/0/523/042f86a5b0.png);
+}
+#tourn h3{
+    margin-top: 2%;
+}
+#tournaments{
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+#tournaments h1{
+    margin-top: 10%;
+
+
+
+}
+#tournaments img{
+    margin-top: 2%;
+    width: 300px;
+    height: 80px;
+}
+.order h2{
+    line-height: 50px;
+
+}
 
 /* Marketing Copy and Footer */
 .copy {
